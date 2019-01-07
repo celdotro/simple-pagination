@@ -1,7 +1,7 @@
 {
 	"name": "@celdotro/vue-simplepagination",
 	"description": "VUE simple pagination",
-	"version": "1.1.1",
+	"version": "1.1.2",
 	"author": "CEL <celdotro@users.noreply.github.com>",
 	"license": "MIT",
 	"private": false,
