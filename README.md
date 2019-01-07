@@ -3,10 +3,10 @@
 
 Simple pagination component for Vue.js
 
+![Screenshot](http://i66.tinypic.com/2411ir7.png)
+
 ## About
 It takes the number of pages (pages), current page (currentpage) and a function for page changing (@changePage)
-
-![Screenshot](http://i66.tinypic.com/2411ir7.png)
 
 ## Install using npm
 > npm i @celdotro/vue-simplepagination
