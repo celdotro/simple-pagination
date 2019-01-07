@@ -1,4 +1,6 @@
 # Vue.js simple pagination
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+
 Simple pagination component for Vue.js
 
 ## About
