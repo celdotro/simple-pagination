@@ -1,0 +1,49 @@
+{
+	"name": "vue-simplepagination",
+	"description": "VUE simple pagination",
+	"version": "1.0.0",
+	"author": "CEL <celdotro@users.noreply.github.com>",
+	"license": "MIT",
+	"private": true,
+	"main": "./dist/vue-info-box.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ainzz/vue-info-box.git"
+	},
+	"keywords": [
+		"vuejs",
+		"vue",
+		"info",
+		"box",
+		"component"
+	],
+	"bugs": {
+		"url": "https://github.com/ainzz/vue-info-box/issues"
+	},
+	"homepage": "https://github.com/ainzz/vue-info-box#readme",
+	"peerDependencies": {
+		"font-awesome": "4.x.x",
+		"vue": "2.x.x"
+	},
+	"scripts": {
+		"dev": "cross-env NODE_ENV=development webpack --progress --watch",
+		"build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+		"prepare": "npm run build"
+	},
+	"files": [
+		"dist/vue-info-box.js"
+	],
+	"devDependencies": {
+		"babel-core": "^6.26.0",
+		"babel-loader": "^8.0.5",
+		"babel-preset-env": "^1.6.1",
+		"cross-env": "^5.1.0",
+		"css-loader": "^2.1.0",
+		"mini-css-extract-plugin": "^0.5.0",
+		"terser-webpack-plugin": "^1.2.1",
+		"vue-loader": "^15.5.0",
+		"vue-template-compiler": "^2.5.2",
+		"webpack": "^4.28.3",
+		"webpack-cli": "^3.2.1"
+	}
+}
