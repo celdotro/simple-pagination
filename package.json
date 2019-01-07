@@ -13,9 +13,10 @@
 	"keywords": [
 		"vuejs",
 		"vue",
-		"info",
-		"box",
-		"component"
+		"pagination",
+		"simple-pagination",
+		"page",
+    "pages"
 	],
 	"bugs": {
 		"url": "https://github.com/celdotro/simple-pagination/issues"
