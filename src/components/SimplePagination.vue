@@ -9,7 +9,7 @@
       <button class="vspButton" @click="changePage(1)"> << </button>
 
       <button v-for="item in leftPages" @click="changePage(item)" :key="item" :class="'vspButton' + (item == currPage ? ' vspButton-selected' : '')">{{item}}</button>
-      <span v-if="(pages - 4) - currPage > 1">...</span>
+      <span v-if="(pages - 4) - currPage > 3">...</span>
       <button v-for="item in [pages - 4, pages - 3, pages - 2, pages - 1, pages]" :class="'vspButton' + (item == currPage ? ' vspButton-selected' : '')" :key="item" @click="changePage(item)">{{item}}</button>
 
       <button class="vspButton" @click="changePage(pages)">>></button>
