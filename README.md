@@ -10,7 +10,9 @@ It takes the number of pages (pages), current page (currentpage) and a function 
 
 ## Install using npm
 > npm i @celdotro/vue-simplepagination
+
 OR
+
 > yarn add @celdotro/vue-simplepagination 
 
 ## Usage
