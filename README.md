@@ -1,45 +1,34 @@
-# Vue Info Box
+# Vue.js simple pagination
+Simple pagination component for Vue.js
 
-> A simple component for vuejs 2 to display different types of info boxes
+## About
+It takes the number of pages (pages), current page (currentpage) and a function for page changing (@changePage)
 
-# Requirements
+## Usage
+See "simple-pagination" tag from the example below:
 
-> VueJS 2.x.x
-
-```bash
-npm install vue
 ```
-
-> Font Awesome 4.x.x
-
-```bash
-npm install font-awesome
-```
-
-# Instalation
-```bash
-npm install vue-info-box --save-dev
-```
-
-# Usage
-```Vue
-<template>
-    <div>
-      <box :active="true" :type="'info|warning|error|confirm'">
-  	<div slot="box-body">
-  	</div>
-      </box>
-    </div>
-</template>
-
-<script>
-
-import Box from 'vue-info-box'
-export default {
-    name: "YourComponent",
-    components: {
-        Box
+<link rel="stylesheet" href="./simple-pagination.css" type="text/css" />
+<script src="https://unpkg.com/vue"></script>
+<script type="text/javascript" src="./simple-pagination.min.js?v=<?php echo time(); ?>"></script>
+<div id="app">
+  <p>{{ message }}</p>
+  <simple-pagination :currentpage="3" :pages="12" @changePage="cb"></simple-pagination>
+</div>
+<script type="text/javascript">
+  var vue =  new Vue({
+  el: '#app',
+  components: {
+      'simple-pagination': SimplePagination.SimplePagination
+  },
+  data: {
+    message: 'Hello Vue.js!'
+  },
+  methods: {
+    cb() {
+        
     }
-}
+  }
+})
 </script>
 ```

@@ -43,19 +43,6 @@
 		this.$emit('changePage', item)
       },
       generateLeftPages(){
-        // var startPage = 1;
-        // if(this.currentPage - 2 > 1) startPage = this.currentPage - 2;
-        // if(this.pages - this.currentPage <= 4) startPage = this.pages - 4 * 2 - 1
-        // if(this.pages - this.currentPage <= 7) startPage = this.pages - 9
-        //
-        // var i = 0;
-        // this.leftPages = []
-        // while(i < 5){
-        //   this.leftPages.push(startPage);
-        //   startPage++;
-        //   i++;
-        // }
-
         var start = (this.currPage - parseInt(this.maxPages/Math.pow(2,2)) > 1 ? this.currPage - parseInt(this.maxPages/Math.pow(2,2)) : 1);
         var stop = parseInt(this.maxPages/2) + this.currPage - parseInt(this.maxPages/Math.pow(2,2)) - 1;
         if(stop < parseInt(this.maxPages/2)) stop = parseInt(this.maxPages/2);
