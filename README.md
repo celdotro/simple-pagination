@@ -6,6 +6,8 @@ Simple pagination component for Vue.js
 ## About
 It takes the number of pages (pages), current page (currentpage) and a function for page changing (@changePage)
 
+![Screenshot](http://i66.tinypic.com/2411ir7.png)
+
 ## Install using npm
 > npm i @celdotro/vue-simplepagination
 OR
@@ -40,7 +42,7 @@ See "simple-pagination" tag from the example below:
 </script>
 ```
 ## Style
-The two main elements are vspButton and vspButton-selected. Below is a CSS example
+The two main elements are vspButton and vspButton-selected. Below is the CSS code used for the screenshot
 ```CSS
 <style>
 	.vspButton {
