@@ -4,11 +4,11 @@
 	"version": "1.0.0",
 	"author": "CEL <celdotro@users.noreply.github.com>",
 	"license": "MIT",
-	"private": true,
-	"main": "./dist/vue-info-box.js",
+	"private": false,
+	"main": "./dist/simple-pagination.js",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/ainzz/vue-info-box.git"
+		"url": "git+https://github.com/celdotro/simple-pagination.git"
 	},
 	"keywords": [
 		"vuejs",
@@ -18,9 +18,9 @@
 		"component"
 	],
 	"bugs": {
-		"url": "https://github.com/ainzz/vue-info-box/issues"
+		"url": "https://github.com/celdotro/simple-pagination/issues"
 	},
-	"homepage": "https://github.com/ainzz/vue-info-box#readme",
+	"homepage": "https://github.com/celdotro/simple-pagination#readme",
 	"peerDependencies": {
 		"font-awesome": "4.x.x",
 		"vue": "2.x.x"
