@@ -59,8 +59,6 @@
     },
     mounted(){
 	  this.currPage = this.currentpage
-	  console.log('currentpage', this.currentpage)
-	  console.log('pages', this.pages)
       this.generateLeftPages()
     }
   }
