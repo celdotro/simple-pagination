@@ -43,8 +43,13 @@ See "simple-pagination" tag from the example below:
 })
 </script>
 ```
+
 ## Style
-The two main elements are vspButton and vspButton-selected. Below is the CSS code used for the screenshot
+The two main elements are vspbutton and vspbuttonselected. These properties default to "vspButton" and "vspButton-selected". Below is the tag used with the default values
+```HTML
+<simple-pagination :currentpage="3" :pages="12" @changePage="cb" vspbutton="vspButton" vspbuttonseelcted="vspButton-selected"></simple-pagination>
+```
+Below is the CSS code used for the screenshot
 ```CSS
 <style>
 	.vspButton {
