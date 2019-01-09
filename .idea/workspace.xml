@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3a5397d2-82bf-4cd8-bdb8-e24ce1b89db6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SimplePagination.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SimplePagination.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/SimplePagination.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
+            <state relative-caret-position="72">
+              <caret line="4" column="151" selection-start-line="4" selection-start-column="151" selection-end-line="4" selection-end-column="151" />
             </state>
           </provider>
         </entry>
@@ -34,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/dist/simple-pagination.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="50" lean-forward="true" selection-end-column="4363" />
+              <caret column="27" selection-end-column="4457" />
             </state>
           </provider>
         </entry>
@@ -88,9 +89,11 @@
       <find>optimi</find>
       <find>/src/inde</find>
       <find>tbtn</find>
+      <find>changePage</find>
     </findStrings>
     <replaceStrings>
       <replace>this.pages</replace>
+      <replace>handlePageChange</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -115,8 +118,8 @@
         <option value="$PROJECT_DIR$/build/webpack.prod.conf.js" />
         <option value="$PROJECT_DIR$/src/components/VueSimplepagination.vue" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/components/SimplePagination.vue" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/components/SimplePagination.vue" />
         <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
@@ -217,18 +220,18 @@
       <workItem from="1546874509364" duration="3206000" />
       <workItem from="1546935488971" duration="2973000" />
       <workItem from="1547022190009" duration="1260000" />
-      <workItem from="1547027176169" duration="4472000" />
+      <workItem from="1547027176169" duration="5660000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35168000" />
+    <option name="totallyTimeSpent" value="36356000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3840" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984375" visible="true" weight="0.27588046" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984375" visible="true" weight="0.27588046" />
       <window_info id="Structure" order="1" sideWeight="0.5015625" side_tool="true" weight="0.2497332" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -288,24 +291,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SimplePagination.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="83" selection-start-line="14" selection-start-column="83" selection-end-line="14" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/simple-pagination.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="50" lean-forward="true" selection-end-column="4363" />
         </state>
       </provider>
     </entry>
@@ -316,6 +305,20 @@
             <caret line="81" column="25" lean-forward="true" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SimplePagination.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="151" selection-start-line="4" selection-start-column="151" selection-end-line="4" selection-end-column="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/simple-pagination.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-end-column="4457" />
         </state>
       </provider>
     </entry>
