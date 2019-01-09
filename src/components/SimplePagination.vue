@@ -2,7 +2,7 @@
   <div>
     <div v-if="pages < maxPages">
       <button :class="vspbutton + (vspbuttonfast !== '' ? ' ' + vspbuttonfast : '')" @click="handlePageChange(1)"> << </button>
-      <button v-for="item in pages" :key="item" :class="vspbutton + (item == currPage ? ' ' + vspbuttonselected : '')" @click="handlePageChange(pages)">{{item}}</button>
+      <button v-for="item in pages" :key="item" :class="vspbutton + (item == currPage ? ' ' + vspbuttonselected : '')" @click="handlePageChange(item)">{{item}}</button>
       <button :class="vspbutton + (vspbuttonfast !== '' ? ' ' + vspbuttonfast : '')" @click="handlePageChange(pages)">>></button>
     </div>
     <div v-else>

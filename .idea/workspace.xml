@@ -17,7 +17,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/SimplePagination.vue">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="4" column="151" selection-start-line="4" selection-start-column="151" selection-end-line="4" selection-end-column="151" />
+              <caret line="4" column="148" selection-start-line="4" selection-start-column="148" selection-end-line="4" selection-end-column="148" />
             </state>
           </provider>
         </entry>
@@ -35,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/dist/simple-pagination.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="27" selection-end-column="4457" />
+              <caret column="27" selection-end-column="4451" />
             </state>
           </provider>
         </entry>
@@ -220,12 +220,12 @@
       <workItem from="1546874509364" duration="3206000" />
       <workItem from="1546935488971" duration="2973000" />
       <workItem from="1547022190009" duration="1260000" />
-      <workItem from="1547027176169" duration="5660000" />
+      <workItem from="1547027176169" duration="5949000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36356000" />
+    <option name="totallyTimeSpent" value="36645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3840" y="-2" width="1920" height="1082" extended-state="6" />
@@ -311,14 +311,14 @@
     <entry file="file://$PROJECT_DIR$/src/components/SimplePagination.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="151" selection-start-line="4" selection-start-column="151" selection-end-line="4" selection-end-column="151" />
+          <caret line="4" column="148" selection-start-line="4" selection-start-column="148" selection-end-line="4" selection-end-column="148" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/simple-pagination.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="27" selection-end-column="4457" />
+          <caret column="27" selection-end-column="4451" />
         </state>
       </provider>
     </entry>
