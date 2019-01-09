@@ -1,18 +1,18 @@
 <template>
   <div>
     <div v-if="pages < maxPages">
-      <button :class="vspbutton" @click="changePage(1)"> << </button>
+      <button :class="vspbutton + (vspbuttonfast !== '' ? ' ' + vspbuttonfast : '')" @click="changePage(1)"> << </button>
       <button v-for="item in pages" :key="item" :class="vspbutton + (item == currPage ? ' ' + vspbuttonselected : '')">{{item}}</button>
-      <button :class="vspbutton" @click="changePage(pages)">>></button>
+      <button :class="vspbutton + (vspbuttonfast !== '' ? ' ' + vspbuttonfast : '')" @click="changePage(pages)">>></button>
     </div>
     <div v-else>
-      <button :class="vspbutton" @click="changePage(1)"> << </button>
+      <button :class="vspbutton + (vspbuttonfast !== '' ? ' ' + vspbuttonfast : '')" @click="changePage(1)"> << </button>
 
       <button v-for="item in leftPages" @click="changePage(item)" :key="item" :class="vspbutton + (item == currPage ? ' ' + vspbuttonselected : '')"">{{item}}</button>
       <span v-if="(pages - 4) - currPage > 3">...</span>
       <button v-for="item in [pages - 4, pages - 3, pages - 2, pages - 1, pages]" :class="vspbutton + (item == currPage ? ' ' + vspbuttonselected : '')"" :key="item" @click="changePage(item)">{{item}}</button>
 
-      <button :class="vspbutton" @click="changePage(pages)">>></button>
+      <button :class="vspbutton + (vspbuttonfast !== '' ? ' ' + vspbuttonfast : '')" @click="changePage(pages)">>></button>
     </div>
   </div>
 </template>
@@ -35,6 +35,10 @@
       vspbuttonselected: {
         type: String,
         default: 'vspButton-selected'
+      },
+      vspbuttonfast: {
+        type: String,
+        default: ''
       }
 	},
     data () {

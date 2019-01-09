@@ -3,7 +3,10 @@
 
 Simple pagination component for Vue.js
 
-![Screenshot](http://i66.tinypic.com/2411ir7.png)
+![Screenshot](https://www.dropbox.com/s/djak7kly656sip9/buttons2.png?dl=1)
+
+
+![Screenshot](https://www.dropbox.com/s/dwkhxdat3hq2m21/buttons1.png?dl=1)
 
 ## About
 It takes the number of pages (pages), current page (currentpage) and a function for page changing (@changePage)
