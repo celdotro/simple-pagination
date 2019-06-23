@@ -50,9 +50,11 @@
     },
     methods: {
       handlePageChange(item){
-        this.currPage = item
-		this.generateLeftPages()
-		this.$emit('changePage', item)
+        if (this.currPage !== item) {
+          this.currPage = item
+          this.generateLeftPages()
+          this.$emit('changePage', item)
+        }
       },
       generateLeftPages(){
         var start = (this.currPage - parseInt(this.maxPages/Math.pow(2,2)) > 1 ? this.currPage - parseInt(this.maxPages/Math.pow(2,2)) : 1);
