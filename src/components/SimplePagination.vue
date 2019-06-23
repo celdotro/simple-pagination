@@ -71,8 +71,13 @@
         }
       }
     },
+    watch: {
+      currentpage: function(val) {
+        this.handlePageChange(val)
+      }
+    },
     mounted(){
-	  this.currPage = this.currentpage
+	    this.currPage = this.currentpage
       this.generateLeftPages()
     }
   }
