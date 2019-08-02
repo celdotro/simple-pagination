@@ -50,9 +50,11 @@
     },
     methods: {
       handlePageChange(item){
-        this.currPage = item
-		this.generateLeftPages()
-		this.$emit('changePage', item)
+        if (this.currPage !== item) {
+          this.currPage = item
+          this.generateLeftPages()
+          this.$emit('changePage', item)
+        }
       },
       generateLeftPages(){
         var start = (this.currPage - parseInt(this.maxPages/Math.pow(2,2)) > 1 ? this.currPage - parseInt(this.maxPages/Math.pow(2,2)) : 1);
@@ -69,8 +71,13 @@
         }
       }
     },
+    watch: {
+      currentpage: function(val) {
+        this.handlePageChange(val)
+      }
+    },
     mounted(){
-	  this.currPage = this.currentpage
+	    this.currPage = this.currentpage
       this.generateLeftPages()
     }
   }
